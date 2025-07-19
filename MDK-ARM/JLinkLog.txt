@@ -1,0 +1,102 @@
+T3EB4 000:234.409   SEGGER J-Link V6.86 Log File
+T3EB4 000:234.662   DLL Compiled: Sep 24 2020 17:31:31
+T3EB4 000:234.682   Logging started @ 2023-08-30 08:16
+T3EB4 000:234.700 - 234.710ms
+T3EB4 000:234.732 JLINK_SetWarnOutHandler(...)
+T3EB4 000:234.751 - 0.029ms
+T3EB4 000:234.771 JLINK_OpenEx(...)
+T3EB4 000:236.984   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T3EB4 000:237.222   Decompressing FW timestamp took 141 us
+T3EB4 000:243.926   Hardware: V9.30
+T3EB4 000:244.001   S/N: 59300616
+T3EB4 000:244.028   OEM: SEGGER
+T3EB4 000:244.056   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T3EB4 000:245.378   TELNET listener socket opened on port 19021
+T3EB4 000:246.173   WEBSRV Starting webserver
+T3EB4 000:246.463   WEBSRV Webserver running on local port 19080
+T3EB4 000:246.495 - 11.732ms returns "O.K."
+T3EB4 000:246.523 JLINK_GetEmuCaps()
+T3EB4 000:246.542 - 0.028ms returns 0xB9FF7BBF
+T3EB4 000:246.565 JLINK_TIF_GetAvailable(...)
+T3EB4 000:246.812 - 0.267ms
+T3EB4 000:246.848 JLINK_SetErrorOutHandler(...)
+T3EB4 000:246.867 - 0.028ms
+T3EB4 000:246.912 JLINK_ExecCommand("ProjectFile = "F:\开发板资料\STM32F103C8T6小系统板资料和例程\HAL库例程代码\18.红外遥控接收\MDK-ARM\JLinkSettings.ini"", ...). 
+T3EB4 000:256.509 - 9.621ms returns 0x00
+T3EB4 000:256.560 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T3EB4 000:256.755   Device "STM32F103C8" selected.
+T3EB4 000:257.572 - 1.012ms returns 0x00
+T3EB4 000:257.614 JLINK_GetHardwareVersion()
+T3EB4 000:257.633 - 0.027ms returns 93000
+T3EB4 000:257.666 JLINK_GetDLLVersion()
+T3EB4 000:257.684 - 0.028ms returns 68600
+T3EB4 000:257.705 JLINK_GetOEMString(...)
+T3EB4 000:257.724 JLINK_GetFirmwareString(...)
+T3EB4 000:257.742 - 0.026ms
+T3EB4 000:257.767 JLINK_GetDLLVersion()
+T3EB4 000:257.785 - 0.026ms returns 68600
+T3EB4 000:257.806 JLINK_GetCompileDateTime()
+T3EB4 000:257.823 - 0.026ms
+T3EB4 000:257.846 JLINK_GetFirmwareString(...)
+T3EB4 000:257.864 - 0.026ms
+T3EB4 000:257.883 JLINK_GetHardwareVersion()
+T3EB4 000:257.901 - 0.026ms returns 93000
+T3EB4 000:257.922 JLINK_GetSN()
+T3EB4 000:257.940 - 0.027ms returns 59300616
+T3EB4 000:257.960 JLINK_GetOEMString(...)
+T3EB4 000:257.984 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T3EB4 000:259.847 - 1.895ms returns 0x00
+T3EB4 000:259.895 JLINK_HasError()
+T3EB4 000:259.929 JLINK_SetSpeed(5000)
+T3EB4 000:260.212 - 0.299ms
+T3EB4 000:260.793 JLINK_HasError()
+T3EB4 000:260.856 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3EB4 000:260.876 - 0.028ms returns JLINKARM_RESET_TYPE_NORMAL
+T3EB4 000:260.895 JLINK_Reset()
+T3EB4 000:262.300   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:262.770   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 000:314.713   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:315.050   
+  ***** Error: 
+T3EB4 000:315.105   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 000:429.030   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:429.500   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 000:481.783   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:482.333   
+  ***** Error: 
+T3EB4 000:482.423   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 000:533.555 - 272.709ms
+T3EB4 000:533.632 JLINK_GetIdData(pIdData)
+T3EB4 000:535.585   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:536.088   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 000:589.264   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:589.916   
+  ***** Error: 
+T3EB4 000:590.016   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 000:703.977   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:704.429   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 000:756.292   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:756.784   
+  ***** Error: 
+T3EB4 000:756.817   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 000:808.159 - 274.743ms
+T3EB4 000:808.436 JLINK_GetIdData(pIdData)
+T3EB4 000:810.317   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:810.776   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 000:863.057   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:863.531   
+  ***** Error: 
+T3EB4 000:863.605   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 000:977.719   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 000:978.432   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T3EB4 001:031.005   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T3EB4 001:031.642   
+  ***** Error: 
+T3EB4 001:031.750   STM32: Connecting to CPU via connect under reset failed.
+T3EB4 001:083.117 - 274.746ms
+T3EB4 001:094.624 JLINK_GetFirmwareString(...)
+T3EB4 001:094.679 - 0.065ms
+T3EB4 004:139.783 JLINK_Close()
+T3EB4 004:147.217 - 7.495ms
+T3EB4 004:147.300   
+T3EB4 004:147.338   Closed
